@@ -29,10 +29,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/telemark/rim-queue-pull.git"
+    "url": "http://github.com/telemark/rim-vigo-update-status.git"
   },
   "bugs": {
-    "url": "http://github.com/telemark/rim-queue-pull/issues"
+    "url": "http://github.com/telemark/rim-vigo-update-status/issues"
   },
   "license": "MIT",
   "devDependencies": {
