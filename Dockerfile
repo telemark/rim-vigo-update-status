@@ -4,8 +4,8 @@
 #
 ###########################################################
 
-# Setting the base to nodejs 6.9.2
-FROM node/6.9.2-alpine
+# Setting the base to nodejs 6.9.3
+FROM node/6.9.3-alpine
 
 # Maintainer
 MAINTAINER Geir Gåsodden
@@ -14,6 +14,9 @@ MAINTAINER Geir Gåsodden
 
 # Installs git
 RUN apk add --update --no-cache git
+
+# Extra tools for native dependencies
+RUN apk add --no-cache make gcc g++ python
 
 # Bundle app source
 COPY . /src
