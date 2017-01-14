@@ -1,7 +1,7 @@
 {
   "name": "rim-vigo-update-status",
   "description": "Updates VIGO with latest status",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "author": {
     "name": "Geir Gåsodden",
