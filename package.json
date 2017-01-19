@@ -1,7 +1,8 @@
 {
   "name": "rim-vigo-update-status",
   "description": "Updates VIGO with latest status",
-  "version": "1.0.1",
+  "version": "1.0.2",
+  "license": "MIT",
   "private": true,
   "author": {
     "name": "Geir Gåsodden",
@@ -34,7 +35,9 @@
   "bugs": {
     "url": "http://github.com/telemark/rim-vigo-update-status/issues"
   },
-  "license": "MIT",
+  "greenkeeper": {
+    "emails": false
+  },
   "devDependencies": {
     "coveralls": "2.11.15",
     "nsp": "2.6.2",

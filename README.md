@@ -8,8 +8,9 @@ Updates VIGO with latest status
 docker.env
 
 ```bash
-JOBS_DIRECTORY_PATH=test/data/jobs
+DONE_DIRECTORY_PATH=test/data/done
 ERRORS_DIRECTORY_PATH=test/data/error
+QUEUE_DIRECTORY_PATH=test/data/queue
 URL=https://vigo.dummy.allthethings.win
 USERNAME=my-username
 PASSWORD=my-password
@@ -35,7 +36,17 @@ or from pre-built image
 $ docker run --env-file=docker.env --volume=/test/data:/src/test/data --rm telemark/rim-vigo-update-status
 ```
 
-This will start a container. Check for jobs in the job directory. Send status. Stop the container and remove it.
+- This will start a container. 
+- Check for jobs in the queue directory.
+- Send status.
+- Stop the container and remove it.
+
+## Related
+- [rim-vigo-data-pull](https://github.com/telemark/rim-vigo-data-pull) Pulls data from VIGO
+- [rim-vigo-saksbehandling](https://github.com/telemark/rim-vigo-saksbehandling) Formats documents for archive
+- [rim-laurentius](https://github.com/telemark/rim-laurentius) Archives the formatted data to Public360
 
 # License
 [MIT](LICENSE)
+
+![alt text](https://robots.kebabstudios.party/rim-vigo-update-status.png "Robohash image of rim-vigo-update-status")
