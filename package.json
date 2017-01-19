@@ -1,7 +1,7 @@
 {
   "name": "rim-vigo-update-status",
   "description": "Updates VIGO with latest status",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "private": true,
   "author": {
@@ -45,8 +45,6 @@
     "tap": "9.0.3"
   },
   "dependencies": {
-    "is-directory": "0.3.1",
-    "rim-service-client": "1.0.1",
-    "tfk-generate-unique-filename": "1.0.2"
+    "rim-service-client": "1.0.1"
   }
 }
