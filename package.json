@@ -30,19 +30,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/telemark/rim-vigo-update-status.git"
+    "url": "https://github.com/telemark/rim-vigo-update-status.git"
   },
   "bugs": {
-    "url": "http://github.com/telemark/rim-vigo-update-status/issues"
-  },
-  "greenkeeper": {
-    "emails": false
+    "url": "https://github.com/telemark/rim-vigo-update-status/issues"
   },
   "devDependencies": {
     "coveralls": "2.11.15",
     "nsp": "2.6.2",
     "standard": "8.6.0",
-    "tap": "9.0.3"
+    "tap": "10.0.0"
   },
   "dependencies": {
     "rim-service-client": "1.0.1"
