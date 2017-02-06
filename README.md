@@ -3,6 +3,8 @@
 
 # rim-vigo-update-status
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/rim-vigo-update-status.svg)](https://greenkeeper.io/)
+
 Updates VIGO with archive status for document
 
 ## Config
