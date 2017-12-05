@@ -1,9 +1,8 @@
 [![Build Status](https://travis-ci.org/telemark/rim-vigo-update-status.svg?branch=master)](https://travis-ci.org/telemark/rim-vigo-update-status)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/rim-vigo-update-status.svg)](https://greenkeeper.io/)
 
 # rim-vigo-update-status
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/rim-vigo-update-status.svg)](https://greenkeeper.io/)
 
 Updates VIGO with archive status for document
 
@@ -50,6 +49,9 @@ $ docker run --env-file=docker.env --volume=/test/data:/src/test/data --rm telem
 - [rim-vigo-data-pull](https://github.com/telemark/rim-vigo-data-pull) Pulls data from VIGO
 - [rim-vigo-saksbehandling](https://github.com/telemark/rim-vigo-saksbehandling) Formats documents for archive
 - [rim-laurentius](https://github.com/telemark/rim-laurentius) Archives the formatted data to Public360
+- [rim-service-client](https://github.com/telemark/rim-service-client) Module for connecting ISI-lokal
+- [robot-stats](https://github.com/telemark/robot-stats) Collect stats for your dashboard
+- [next-dashboard-rambo](https://github.com/telemark/next-dashboard-rambo) Dashboard for RAMBO
 
 # License
 
