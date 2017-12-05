@@ -1,14 +1,5 @@
-###########################################################
-#
-# Dockerfile for rim-vigo-update-status
-#
-###########################################################
-
-# Setting the base to nodejs 6.9.4
-FROM node:6.9.4-alpine
-
-# Maintainer
-MAINTAINER Geir Gåsodden
+# Setting the base to nodejs 8.9.1
+FROM node:8.9.1-alpine
 
 #### Begin setup ####
 
