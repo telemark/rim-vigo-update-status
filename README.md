@@ -1,6 +1,5 @@
 [![Build Status](https://travis-ci.org/telemark/rim-vigo-update-status.svg?branch=master)](https://travis-ci.org/telemark/rim-vigo-update-status)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
-[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/rim-vigo-update-status.svg)](https://greenkeeper.io/)
 
 # rim-vigo-update-status
 
