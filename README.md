@@ -55,5 +55,3 @@ $ docker run --env-file=docker.env --volume=/test/data:/src/test/data --rm telem
 # License
 
 [MIT](LICENSE)
-
-![alt text](https://robots.kebabstudios.party/rim-vigo-update-status.png "Robohash image of rim-vigo-update-status")
