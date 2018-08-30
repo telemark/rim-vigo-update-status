@@ -1,7 +1,7 @@
 {
   "name": "rim-vigo-update-status",
   "description": "Updates VIGO with latest status",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "license": "MIT",
   "private": true,
   "author": {
