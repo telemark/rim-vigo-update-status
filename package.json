@@ -42,6 +42,6 @@
     "tap": "14.5.0"
   },
   "dependencies": {
-    "rim-service-client": "2.0.1"
+    "rim-service-client": "3.0.1"
   }
 }
